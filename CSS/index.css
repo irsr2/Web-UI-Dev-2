@@ -272,11 +272,14 @@ body {
   font-size: 2em;
   margin-top: 15px;
   color: black;
+  margin-left: 5%;
 }
 #header #nav {
   position: relative;
   display: flex;
   flex-direction: row;
+  margin-top: 15px;
+  margin-right: 5%;
 }
 #header li {
   margin: 0 10px;
@@ -345,6 +348,7 @@ body {
 }
 #bottom-content {
   background: #83D3C9;
+  width: 100%;
 }
 #bottom-content p {
   background: #83d3ca;
