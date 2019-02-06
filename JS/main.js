@@ -1,38 +1,28 @@
-let toggleNavStatus = false;
+let i = 0;
+let images = [];
+let time = 3000;
 
-let toggleNav = function () {
-    let getSidebar = document.querySelector('#header');
-    let getSidebarUl = document.querySelector('#header ul');
-    let getSideTitle = document.querySelector('#header span');
-    let getSidelinks = document.querySelectorAll('#header a');
 
-    if (toggleNavStatus === false) {
-        getSidebarUl.style.visibility = "visible";
-        getSidebar.style.width = "272px";
-        getSideTitle.style.opacity = "0.5";
 
-        let arrayLength = getSidbarLinks.length;
-        for (let i = 0; 1 < arrayLength; i++) {
-            getSidelinks[i].style.opacity = "1";
-        }
+images[0] = '/ASSETS/Webp.net-resizeimage (6).jpg';
+images[1] = '/ASSETS/Webp.net-resizeimage (1).jpg';
+images[2] = '/ASSETS/accessories-africa-bracelets-1667850.jpg';
+images[3] = '/ASSETS/Webp.net-resizeimage (1).jpg';
+images[4] = '/ASSETS/Webp.net-resizeimage (6).jpg';
 
-        toggleNavStatus = true;
+
+console.log(images);
+
+function changeImg(){
+    document.slide.src = images[i];
+
+    if (i < images.length - 1) {
+        i++;
+    } else {
+        i = 0;
     }
 
-
-    else if (toggleNavStatus === true) {
-        
-        getSidebar.style.width = "0";
-        getSideTitle.style.opacity = "0";
-
-        let arrayLength = getSidbarLinks.length;
-
-        for (let i = 0; 1 < arrayLength; i++) {
-            getSidelinks[i].style.opacity = "0";
-        }
-
-        getSidebarUl.style.visibility = "hidden";
-
-        toggleNavStatus = false;
-    }
+    setTimeout('changeImg()', time);
 }
+
+window.onload = changeImg;
