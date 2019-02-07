@@ -308,9 +308,16 @@ header {
 }
 header h1 {
   margin-bottom: 0.5em;
+  padding: 40px 0;
   font-size: 50px;
   margin-top: 90px;
   line-height: 1em;
+}
+header .jumbo {
+  border-bottom: solid 1px white;
+  border-top: solid 1px white;
+  margin-bottom: 0.3em;
+  margin-top: 50px;
 }
 .img {
   display: flex;
