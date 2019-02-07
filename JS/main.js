@@ -5,10 +5,10 @@ let time = 3000;
 
 
 
-images[0] = '/ASSETS/Webp.net-resizeimage (1).jpg';
-images[1] = '/ASSETS/adventure-ball-shaped-blur-346885.jpg';
-images[2] = '/ASSETS/school-children.jpg';
-images[3] = '/ASSETS/book-bookcase-books-1166657.jpg';
+images[0] = '/IMAGES/Webp.net-resizeimage (1).jpg';
+images[1] = '/IMAGES/adventure-ball-shaped-blur-346885.jpg';
+images[2] = '/IMAGES/school-children.jpg';
+images[3] = '/IMAGES/book-bookcase-books-1166657.jpg';
 
 
 
