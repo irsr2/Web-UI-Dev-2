@@ -240,15 +240,16 @@ body {
   background-color: white;
   color: #A9ABAC;
 }
-#banner .menu-icon {
+#banner #menu-icon {
   display: flex;
   justify-content: left;
-  position: absolute;
+  position: relative;
   width: 100%;
   filter: invert(100%);
   text-decoration: none;
+  display: none;
 }
-#banner .menu-icon img {
+#banner #menu-icon img {
   margin-left: 15px;
   margin-top: 15px;
 }
@@ -348,4 +349,11 @@ header .jumbo {
 }
 .alt {
   z-index: 1000001;
+}
+#menu-icon-close {
+  display: flex;
+  justify-content: left;
+  position: relative;
+  width: 25px;
+  display: none;
 }

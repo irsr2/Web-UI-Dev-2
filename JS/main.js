@@ -32,3 +32,42 @@ arr.forEach((link) => {link.addEventListener("mouseover", function(){
     console.log();
     this.style.color = "#6C5359"; setTimeout( () => {this.style.color ="";}, 500);}, false)
 });
+
+
+//side menu
+
+
+// let mql = window.matchMedia('(max-width: 500px)');
+
+// function screenTest(e) {
+//     if (e.matches) {
+//         document.querySelector('#menu-icon').addEventListener('click', function() {
+           
+//             document.querySelector('#header').style.display= 'flex';
+
+//             document.querySelector('#menu-icon-close').style.display= 'flex';
+
+//             })
+//         }
+//     }
+ 
+
+
+// function screenTestTwo(e) {
+//     if (e.matches) {
+//         document.querySelector('#menu-icon-close').addEventListener('click', function() {
+//             document.querySelector('#header').style.display= 'none';
+        
+//         })
+//     }
+// }        
+
+    
+
+
+
+
+
+// mql.addListener(screenTest);
+
+// mql.addListener(screenTestTwo);
